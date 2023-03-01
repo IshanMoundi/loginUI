@@ -1,47 +1,43 @@
-  input[type=text], input[type=password] {
-    border-radius: 25px;
-    text-align: center;
-    align-items: center;
-    width: 50%;
-    padding: 2%;
-    margin: 2%;
-    display: inline-block;
-    border: 1% solid #ccc;
-    box-sizing: border-box;
+  input[type=username], input[type=password] { /* style rules for my username and password inputs */
+    border-radius: 25px; /* border radius set to 25 px for rounding the box */
+    text-align: center; /* text align set to center of input field */
+    align-items: center; /* align items to center of field */
+    width: 50%; /* set width to 50 percent to scale if window size changes */
+    padding: 2%; /* set padding to 2 percent to scale if window size changes */
+    margin: 2%; /* set margin to 2 percent to scale if window size changes */
+    border: 1% solid #ccc; /* border set to 1 percent to scale if window size changes. color is set to white */
   }
   
   button {
-    border-radius: 25px;
-    text-align: center;
-    align-items: center;
-    background-color: #6753a4;
-    color: rgb(120, 233, 154);
-    padding: 3%;
-    margin: 3%;
-    border: none;
-    cursor: pointer;
-    width: 50%;
+    border-radius: 25px; /* border radius set to 25 px for rounding the box */
+    text-align: center; /* text align set to center of input field */
+    align-items: center; /* align items to center of field */
+    background-color: #6753a4; /* set background color of button to purple */
+    color: rgb(120, 233, 154); /* set color of text to green */
+    padding: 3%; /* set padding to 3 percent to scale if window size changes */
+    margin: 3%; /* set margin to 3 percent to scale if window size changes */
+    border: groove; /* set border of button to look fancy */
+    width: 50%; /* set width to 50 percent to scale if window size changes */
   }
   
   button:hover {
-    opacity: 0.8;
+    opacity: 0.8; /* have button look faded when mouse is over it */
   }
   
   .container {
-    text-align: center;
-    align-items: center;
-    padding: 15%;
+    text-align: center; /* align text of the box to the center of the page*/
+    align-items: center; /* align content of box to the center of the page */
+    padding: 15%; /* set padding to 15 percent to scale if the window size changes */
   }
   object{
-    border-radius: 25px;
-    text-align: center;
-    align-items: center;
-    width: 40%;
-    height: 80%;
-    padding: 1%;
-    margin: 1%;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    box-shadow: 10px 10px 5px lightblue;
+    border-radius: 25px; /* set border radius to 25 px for rounded edges of box */
+    text-align: center; /* align text of the box to the center of the box */
+    align-items: center; /* set items of the box to the center of the box */
+    width: 40%; /* set width to 40 percent to scale if window size changes */
+    height: 80%; /* set height to 80 percent to scale if window size changes */
+    padding: 1%; /* set padding to 1 percent to scale if window size changes */
+    margin: 1%; /* set margin to 1 percent to scale if window size changes */
+    display: inline-block; /* set display to inline-block so that the entire page doesnt look disorderly */
+    border: 1px solid #ccc; /* set border to solid white */
+    box-shadow: 10px 10px 5px lightblue; /* this line adds a shadow to the box, with a lightblue color */
   }
